@@ -1,0 +1,209 @@
+2024/06/27 03:14:47 Namespace(adapt=True, alpha=0.8, batch_size_mapping=32, dataset='FT', device='cuda:3', embed_dim=256, fast_lr=0.05, folder_dir='../dataset/', hidden_dim1=800, hidden_dim2=1600, k_shot=5, meta_test_cluster=1, model='DeepLink', n_way=5, ratio=0.5, supervised_epochs=40, supervised_lr=0.0005, support='similarity', top_k=10, unsupervised_epochs=20, unsupervised_lr=0.0005)
+2024/06/27 03:14:59 Starting supervised mapping training...
+2024/06/27 03:15:08 Epoch: 1, loss: -0.4048
+2024/06/27 03:15:08 Train MRR 0.1102 | Hit@10 0.1318 | Success@10 0.1648
+2024/06/27 03:15:08 Test MRR 0.0237 | Hit@10 0.0342 | Success@10 0.0565
+2024/06/27 03:15:08 Common MRR_best: 0.0237, Hit_best: 0.0342, Success:0.0565
+2024/06/27 03:15:16 Epoch: 2, loss: -0.4454
+2024/06/27 03:15:16 Train MRR 0.1784 | Hit@10 0.2220 | Success@10 0.2817
+2024/06/27 03:15:16 Test MRR 0.0436 | Hit@10 0.0601 | Success@10 0.0950
+2024/06/27 03:15:16 Common MRR_best: 0.0436, Hit_best: 0.0601, Success:0.0950
+2024/06/27 03:15:25 Epoch: 3, loss: -0.5501
+2024/06/27 03:15:25 Train MRR 0.4577 | Hit@10 0.5402 | Success@10 0.6231
+2024/06/27 03:15:25 Test MRR 0.0923 | Hit@10 0.1376 | Success@10 0.2019
+2024/06/27 03:15:25 Common MRR_best: 0.0923, Hit_best: 0.1376, Success:0.2019
+2024/06/27 03:15:34 Epoch: 4, loss: -0.6714
+2024/06/27 03:15:34 Train MRR 0.6345 | Hit@10 0.7165 | Success@10 0.7910
+2024/06/27 03:15:34 Test MRR 0.1276 | Hit@10 0.1776 | Success@10 0.2516
+2024/06/27 03:15:34 Common MRR_best: 0.1276, Hit_best: 0.1776, Success:0.2516
+2024/06/27 03:15:43 Epoch: 5, loss: -0.7479
+2024/06/27 03:15:43 Train MRR 0.7504 | Hit@10 0.8147 | Success@10 0.8688
+2024/06/27 03:15:43 Test MRR 0.1401 | Hit@10 0.1924 | Success@10 0.2745
+2024/06/27 03:15:43 Common MRR_best: 0.1401, Hit_best: 0.1924, Success:0.2745
+2024/06/27 03:15:52 Epoch: 6, loss: -0.8083
+2024/06/27 03:15:52 Train MRR 0.8276 | Hit@10 0.8794 | Success@10 0.9260
+2024/06/27 03:15:52 Test MRR 0.1509 | Hit@10 0.2061 | Success@10 0.2863
+2024/06/27 03:15:52 Common MRR_best: 0.1509, Hit_best: 0.2061, Success:0.2863
+2024/06/27 03:16:01 Epoch: 7, loss: -0.8628
+2024/06/27 03:16:01 Train MRR 0.8732 | Hit@10 0.9220 | Success@10 0.9565
+2024/06/27 03:16:01 Test MRR 0.1611 | Hit@10 0.2217 | Success@10 0.3056
+2024/06/27 03:16:01 Common MRR_best: 0.1611, Hit_best: 0.2217, Success:0.3056
+2024/06/27 03:16:11 Epoch: 8, loss: -0.9144
+2024/06/27 03:16:11 Train MRR 0.9117 | Hit@10 0.9468 | Success@10 0.9714
+2024/06/27 03:16:11 Test MRR 0.1668 | Hit@10 0.2256 | Success@10 0.3099
+2024/06/27 03:16:11 Common MRR_best: 0.1668, Hit_best: 0.2256, Success:0.3099
+2024/06/27 03:16:19 Epoch: 9, loss: -0.9607
+2024/06/27 03:16:19 Train MRR 0.9346 | Hit@10 0.9622 | Success@10 0.9807
+2024/06/27 03:16:19 Test MRR 0.1671 | Hit@10 0.2308 | Success@10 0.3161
+2024/06/27 03:16:19 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:16:27 Epoch: 10, loss: -0.9968
+2024/06/27 03:16:27 Train MRR 0.9508 | Hit@10 0.9731 | Success@10 0.9876
+2024/06/27 03:16:27 Test MRR 0.1660 | Hit@10 0.2253 | Success@10 0.3106
+2024/06/27 03:16:27 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:16:36 Epoch: 11, loss: -1.0269
+2024/06/27 03:16:36 Train MRR 0.9619 | Hit@10 0.9799 | Success@10 0.9932
+2024/06/27 03:16:36 Test MRR 0.1639 | Hit@10 0.2214 | Success@10 0.3012
+2024/06/27 03:16:36 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:16:46 Epoch: 12, loss: -1.0536
+2024/06/27 03:16:46 Train MRR 0.9727 | Hit@10 0.9858 | Success@10 0.9944
+2024/06/27 03:16:46 Test MRR 0.1629 | Hit@10 0.2208 | Success@10 0.3025
+2024/06/27 03:16:46 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:16:55 Epoch: 13, loss: -1.0786
+2024/06/27 03:16:55 Train MRR 0.9759 | Hit@10 0.9879 | Success@10 0.9938
+2024/06/27 03:16:55 Test MRR 0.1607 | Hit@10 0.2178 | Success@10 0.3019
+2024/06/27 03:16:55 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:17:04 Epoch: 14, loss: -1.1007
+2024/06/27 03:17:04 Train MRR 0.9833 | Hit@10 0.9905 | Success@10 0.9944
+2024/06/27 03:17:04 Test MRR 0.1603 | Hit@10 0.2159 | Success@10 0.2963
+2024/06/27 03:17:04 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:17:13 Epoch: 15, loss: -1.1128
+2024/06/27 03:17:13 Train MRR 0.9859 | Hit@10 0.9941 | Success@10 0.9975
+2024/06/27 03:17:13 Test MRR 0.1553 | Hit@10 0.2139 | Success@10 0.2981
+2024/06/27 03:17:13 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:17:22 Epoch: 16, loss: -1.1404
+2024/06/27 03:17:22 Train MRR 0.9871 | Hit@10 0.9947 | Success@10 0.9975
+2024/06/27 03:17:22 Test MRR 0.1587 | Hit@10 0.2173 | Success@10 0.3000
+2024/06/27 03:17:22 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:17:32 Epoch: 17, loss: -1.1511
+2024/06/27 03:17:32 Train MRR 0.9907 | Hit@10 0.9955 | Success@10 0.9981
+2024/06/27 03:17:32 Test MRR 0.1538 | Hit@10 0.2127 | Success@10 0.2969
+2024/06/27 03:17:32 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:17:41 Epoch: 18, loss: -1.1599
+2024/06/27 03:17:41 Train MRR 0.9900 | Hit@10 0.9959 | Success@10 0.9988
+2024/06/27 03:17:41 Test MRR 0.1510 | Hit@10 0.2058 | Success@10 0.2907
+2024/06/27 03:17:41 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:17:49 Epoch: 19, loss: -1.1632
+2024/06/27 03:17:49 Train MRR 0.9949 | Hit@10 0.9981 | Success@10 0.9994
+2024/06/27 03:17:49 Test MRR 0.1555 | Hit@10 0.2125 | Success@10 0.2969
+2024/06/27 03:17:49 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:17:57 Epoch: 20, loss: -1.1757
+2024/06/27 03:17:57 Train MRR 0.9960 | Hit@10 0.9984 | Success@10 0.9994
+2024/06/27 03:17:57 Test MRR 0.1565 | Hit@10 0.2127 | Success@10 0.2932
+2024/06/27 03:17:57 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:18:05 Epoch: 21, loss: -1.1840
+2024/06/27 03:18:05 Train MRR 0.9955 | Hit@10 0.9986 | Success@10 1.0000
+2024/06/27 03:18:05 Test MRR 0.1564 | Hit@10 0.2107 | Success@10 0.2894
+2024/06/27 03:18:05 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:18:14 Epoch: 22, loss: -1.1901
+2024/06/27 03:18:14 Train MRR 0.9955 | Hit@10 0.9986 | Success@10 1.0000
+2024/06/27 03:18:14 Test MRR 0.1522 | Hit@10 0.2111 | Success@10 0.2888
+2024/06/27 03:18:14 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:18:23 Epoch: 23, loss: -1.1973
+2024/06/27 03:18:23 Train MRR 0.9983 | Hit@10 0.9995 | Success@10 1.0000
+2024/06/27 03:18:23 Test MRR 0.1539 | Hit@10 0.2112 | Success@10 0.2932
+2024/06/27 03:18:23 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:18:32 Epoch: 24, loss: -1.2011
+2024/06/27 03:18:32 Train MRR 0.9984 | Hit@10 0.9997 | Success@10 1.0000
+2024/06/27 03:18:32 Test MRR 0.1503 | Hit@10 0.2079 | Success@10 0.2913
+2024/06/27 03:18:32 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:18:40 Epoch: 25, loss: -1.2061
+2024/06/27 03:18:40 Train MRR 0.9984 | Hit@10 0.9997 | Success@10 1.0000
+2024/06/27 03:18:40 Test MRR 0.1564 | Hit@10 0.2116 | Success@10 0.2913
+2024/06/27 03:18:40 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:18:49 Epoch: 26, loss: -1.2080
+2024/06/27 03:18:49 Train MRR 0.9988 | Hit@10 0.9998 | Success@10 1.0000
+2024/06/27 03:18:49 Test MRR 0.1553 | Hit@10 0.2107 | Success@10 0.2888
+2024/06/27 03:18:49 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:18:56 Epoch: 27, loss: -1.2088
+2024/06/27 03:18:56 Train MRR 0.9985 | Hit@10 0.9996 | Success@10 1.0000
+2024/06/27 03:18:56 Test MRR 0.1553 | Hit@10 0.2062 | Success@10 0.2807
+2024/06/27 03:18:56 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:19:05 Epoch: 28, loss: -1.2135
+2024/06/27 03:19:05 Train MRR 0.9988 | Hit@10 0.9998 | Success@10 1.0000
+2024/06/27 03:19:05 Test MRR 0.1501 | Hit@10 0.2074 | Success@10 0.2863
+2024/06/27 03:19:05 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:19:13 Epoch: 29, loss: -1.2190
+2024/06/27 03:19:13 Train MRR 0.9993 | Hit@10 0.9998 | Success@10 1.0000
+2024/06/27 03:19:13 Test MRR 0.1578 | Hit@10 0.2124 | Success@10 0.2950
+2024/06/27 03:19:13 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:19:22 Epoch: 30, loss: -1.2214
+2024/06/27 03:19:22 Train MRR 0.9990 | Hit@10 0.9998 | Success@10 1.0000
+2024/06/27 03:19:22 Test MRR 0.1567 | Hit@10 0.2099 | Success@10 0.2919
+2024/06/27 03:19:22 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:19:32 Epoch: 31, loss: -1.2231
+2024/06/27 03:19:32 Train MRR 0.9993 | Hit@10 0.9998 | Success@10 1.0000
+2024/06/27 03:19:32 Test MRR 0.1570 | Hit@10 0.2129 | Success@10 0.2981
+2024/06/27 03:19:32 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:19:40 Epoch: 32, loss: -1.2250
+2024/06/27 03:19:40 Train MRR 0.9997 | Hit@10 0.9999 | Success@10 1.0000
+2024/06/27 03:19:40 Test MRR 0.1584 | Hit@10 0.2155 | Success@10 0.2994
+2024/06/27 03:19:40 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:19:49 Epoch: 33, loss: -1.2266
+2024/06/27 03:19:49 Train MRR 0.9993 | Hit@10 0.9998 | Success@10 1.0000
+2024/06/27 03:19:49 Test MRR 0.1581 | Hit@10 0.2147 | Success@10 0.2969
+2024/06/27 03:19:49 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:19:58 Epoch: 34, loss: -1.2275
+2024/06/27 03:19:58 Train MRR 0.9994 | Hit@10 0.9999 | Success@10 1.0000
+2024/06/27 03:19:58 Test MRR 0.1578 | Hit@10 0.2157 | Success@10 0.2944
+2024/06/27 03:19:58 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:20:07 Epoch: 35, loss: -1.2257
+2024/06/27 03:20:08 Train MRR 0.9997 | Hit@10 0.9999 | Success@10 1.0000
+2024/06/27 03:20:08 Test MRR 0.1600 | Hit@10 0.2190 | Success@10 0.3068
+2024/06/27 03:20:08 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:20:16 Epoch: 36, loss: -1.2284
+2024/06/27 03:20:17 Train MRR 0.9993 | Hit@10 0.9998 | Success@10 1.0000
+2024/06/27 03:20:17 Test MRR 0.1581 | Hit@10 0.2163 | Success@10 0.3000
+2024/06/27 03:20:17 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:20:33 Train MRR 0.9475 | Hit@10 0.9837 | Success@10 0.9994
+2024/06/27 03:20:33 Test MRR 0.2597 | Hit@10 0.3484 | Success@10 0.4534
+2024/06/27 03:20:33 -- Test loss: -0.5248, MRR: 0.2597, Hit: 0.3484, Success:0.4534  --
+2024/06/27 03:20:33 == Adapt best == MRR: 0.2597, Hit: 0.3484, Success: 0.4534 ===
+2024/06/27 03:20:41 Epoch: 37, loss: -1.2281
+2024/06/27 03:20:41 Train MRR 0.9993 | Hit@10 0.9998 | Success@10 1.0000
+2024/06/27 03:20:41 Test MRR 0.1617 | Hit@10 0.2160 | Success@10 0.2969
+2024/06/27 03:20:41 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:20:58 Train MRR 0.9488 | Hit@10 0.9837 | Success@10 1.0000
+2024/06/27 03:20:58 Test MRR 0.2596 | Hit@10 0.3492 | Success@10 0.4571
+2024/06/27 03:20:58 -- Test loss: -0.5247, MRR: 0.2596, Hit: 0.3492, Success:0.4571  --
+2024/06/27 03:20:58 == Adapt best == MRR: 0.2597, Hit: 0.3484, Success: 0.4534 ===
+2024/06/27 03:21:06 Epoch: 38, loss: -1.2298
+2024/06/27 03:21:06 Train MRR 0.9997 | Hit@10 0.9999 | Success@10 1.0000
+2024/06/27 03:21:06 Test MRR 0.1608 | Hit@10 0.2183 | Success@10 0.2969
+2024/06/27 03:21:06 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:21:22 Train MRR 0.9496 | Hit@10 0.9838 | Success@10 1.0000
+2024/06/27 03:21:22 Test MRR 0.2594 | Hit@10 0.3484 | Success@10 0.4571
+2024/06/27 03:21:22 -- Test loss: -0.5250, MRR: 0.2594, Hit: 0.3484, Success:0.4571  --
+2024/06/27 03:21:22 == Adapt best == MRR: 0.2597, Hit: 0.3484, Success: 0.4534 ===
+2024/06/27 03:21:30 Epoch: 39, loss: -1.2335
+2024/06/27 03:21:30 Train MRR 0.9997 | Hit@10 0.9999 | Success@10 1.0000
+2024/06/27 03:21:30 Test MRR 0.1557 | Hit@10 0.2112 | Success@10 0.2907
+2024/06/27 03:21:30 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:21:40 Epoch: 40, loss: -1.2318
+2024/06/27 03:21:40 Train MRR 0.9997 | Hit@10 0.9999 | Success@10 1.0000
+2024/06/27 03:21:40 Test MRR 0.1568 | Hit@10 0.2133 | Success@10 0.2950
+2024/06/27 03:21:40 Common MRR_best: 0.1671, Hit_best: 0.2308, Success:0.3161
+2024/06/27 03:21:40 Time for training: 401.38
+2024/06/27 03:21:40 --- Final Results ---
+2024/06/27 03:21:47 
+ ----- Cosine Sim -------
+2024/06/27 03:21:47 Train MRR 0.9475 | Hit@1 0.9129 | Success@1 0.9129
+2024/06/27 03:21:47 Test MRR 0.2597 | Hit@1 0.1652 | Success@1 0.1652
+2024/06/27 03:21:47 Train MRR 0.9475 | Hit@10 0.9837 | Success@10 0.9994
+2024/06/27 03:21:47 Test MRR 0.2597 | Hit@10 0.3484 | Success@10 0.4534
+2024/06/27 03:21:47 Train MRR 0.9475 | Hit@30 0.9945 | Success@30 1.0000
+2024/06/27 03:21:47 Test MRR 0.2597 | Hit@30 0.4783 | Success@30 0.5988
+2024/06/27 03:21:47 
+ ----- CSLS + Cosine Sim -------
+2024/06/27 03:21:47 Train MRR 0.9814 | Hit@1 0.9683 | Success@1 0.9683
+2024/06/27 03:21:47 Test MRR 0.2831 | Hit@1 0.1876 | Success@1 0.1876
+2024/06/27 03:21:47 Train MRR 0.9814 | Hit@10 0.9949 | Success@10 1.0000
+2024/06/27 03:21:47 Test MRR 0.2831 | Hit@10 0.3736 | Success@10 0.4689
+2024/06/27 03:21:47 Train MRR 0.9814 | Hit@30 0.9983 | Success@30 1.0000
+2024/06/27 03:21:47 Test MRR 0.2831 | Hit@30 0.4931 | Success@30 0.6012
+2024/06/27 03:21:47 
+ ----- RInf + Cosine Sim -------
+2024/06/27 03:21:47 Train MRR 0.9925 | Hit@1 0.9869 | Success@1 0.9869
+2024/06/27 03:21:47 Test MRR 0.0609 | Hit@1 0.0590 | Success@1 0.0590
+2024/06/27 03:21:47 Train MRR 0.9925 | Hit@10 0.9978 | Success@10 1.0000
+2024/06/27 03:21:47 Test MRR 0.0609 | Hit@10 0.0607 | Success@10 0.0609
+2024/06/27 03:21:48 Train MRR 0.9925 | Hit@30 0.9993 | Success@30 1.0000
+2024/06/27 03:21:48 Test MRR 0.0609 | Hit@30 0.0608 | Success@30 0.0609
+2024/06/27 03:21:48 
+ ----- Sinkhorn + Cosine Sim -------
+2024/06/27 03:21:48 Train MRR 0.9489 | Hit@1 0.9104 | Success@1 0.9104
+2024/06/27 03:21:48 Test MRR 0.1803 | Hit@1 0.1118 | Success@1 0.1118
+2024/06/27 03:21:48 Train MRR 0.9489 | Hit@10 0.9841 | Success@10 0.9994
+2024/06/27 03:21:48 Test MRR 0.1803 | Hit@10 0.2435 | Success@10 0.3143
+2024/06/27 03:21:48 Train MRR 0.9489 | Hit@30 0.9947 | Success@30 1.0000
+2024/06/27 03:21:48 Test MRR 0.1803 | Hit@30 0.3349 | Success@30 0.4155
+2024/06/27 03:21:48 Time of local mapping: 16.48
