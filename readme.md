@@ -48,8 +48,8 @@ Hyperparameter settings can refer to `run.py`, though the file may have been mod
     author       = {Meixiu Long, Siyuan Chen, and Jiahai Wang},
     title        = {Locally-adaptive Mapping for Network Alignment via Meta-learning},
     journal      = {Information Processing \& Management},
-    volume       = {},
-    number       = {},
-    pages        = {},
+    volume       = {61},
+    number       = {5},
+    pages        = {103817},
     year         = {2024}
     }
